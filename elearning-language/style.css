@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.hero {
+    background: #007bff;
+    color: white;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.video-section .card {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Add this to your style.css file */
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent; /* Initial transparent border */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Border popping effect when the card is scrolled into view */
+.card.active {
+    border: 2px solid #007bff; /* Blue border when active */
+}
+
+/* Hover effect for card border */
+.card:hover {
+    transform: scale(1.05);
+    border: 2px solid #c51919; /* Green border when hovered */
+}
+
+/* Optional: Adding shadow on hover */
+.card:hover .card-body {
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+}
+
+.hero {
+    background: #007bff;
+    color: white;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+}
+
+/* Styling for the video-section */
+.video-section {
+    margin-top: 40px;
+}
+
+
+
